@@ -4,7 +4,7 @@ A small library that provides synchronous input function for NodeJS.
 
 It is used in educational JavaScript projects for [Hyperskill](https://hyperskill.org).
 
-This is simplified version of [prompt-sync](https://github.com/heapwolf/prompt-sync) library and intended to be used not with an actual keyboard, but with an stdin pipe.
+This is simplified version of [prompt-sync](https://github.com/heapwolf/prompt-sync) library and intended to be used not with an actual keyboard, but with an stdin pipe. In spite of this, it works with a keyboard input too.
 
 ## Installation
 
