@@ -4,7 +4,9 @@ const carriageReturn = '\r'.charCodeAt(0);
 const newLine = '\n'.charCodeAt(0);
 
 function input(prompt) {
-    const fd = process.stdin.fd;
+    const fd = (process.platform === 'win32') ?
+        process.stdin.fd :
+        fs.openSync('/dev/stdin', 'rs');
 
     const buf = Buffer.alloc(1);
     let str = '', character, read;
