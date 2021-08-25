@@ -1,0 +1,17 @@
+{
+  "name": "sync-input",
+  "version": "1.0.0",
+  "description": "A small library that provides synchronous input function for NodeJS.",
+  "author": "Vladimir Turov",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperskill/sync-input.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hyperskill/sync-input/issues"
+  },
+  "files": [
+    "index.js"
+  ]
+}
