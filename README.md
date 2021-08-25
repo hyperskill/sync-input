@@ -11,16 +11,18 @@ This is simplified version of [prompt-sync](https://github.com/heapwolf/prompt-s
 You can install this library using the following command. You don't need `git` to be installed to perform this command.
 
 ```shell
-npm install https://github.com/hyperskill/sync-input/archive/main.tar.gz
+npm install https://github.com/hyperskill/sync-input/archive/v1.tar.gz
 ```
 
 Or you can add the following line into your `package.json` file.
 
 ```json
 "dependencies": {
-    "sync-input": "https://github.com/hyperskill/sync-input/archive/main.tar.gz"
+    "sync-input": "https://github.com/hyperskill/sync-input/archive/v1.tar.gz"
 }
 ```
+
+You can also refer to the latest changes in the `main` branch using `main.tar.gz` instead of `v1.tar.gz`.
 
 ## Usage
 
