@@ -22,7 +22,7 @@ Or you can add the following line into your `package.json` file.
 }
 ```
 
-You can also refer to the latest changes in the `main` branch using `main.tar.gz` instead of `v1.tar.gz`.
+You can also refer to the latest changes in the `release` branch using `release.tar.gz` instead of `v1.tar.gz`.
 
 ## Usage
 
